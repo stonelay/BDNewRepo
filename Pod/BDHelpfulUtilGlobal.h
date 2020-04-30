@@ -8,7 +8,7 @@
 #ifndef BDHelpfulUtilGlobal_h
 #define BDHelpfulUtilGlobal_h
 
-#import "HBURLConvertible.h"
+#import "HBURLConvertible111.h"
 #import "UIColor+BDHex.h"
 #import "YYText.h"
 #import "BlocksKit.h"
