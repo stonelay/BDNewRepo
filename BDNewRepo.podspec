@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
   
   s.ios.deployment_target = "8.0"
 
-  s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'Pod/**/*.h'
   s.prefix_header_contents = '#import "BDNewRepoGlobal.h"'
   
 
