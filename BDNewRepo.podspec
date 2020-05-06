@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "BDNewRepo"
-  s.version      = "0.0.4"
+  s.version      = "0.0.5"
   s.summary      = "NSAttributeString Util"
   s.description  = "easy way to create NSAttributeString"
 
