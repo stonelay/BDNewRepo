@@ -9,12 +9,12 @@
 Pod::Spec.new do |s|
 
   s.name         = "BDNewRepo"
-  s.version      = "0.0.6"
+  s.version      = "0.0.8"
   s.summary      = "NSAttributeString Util"
   s.description  = "easy way to create NSAttributeString"
 
   s.homepage     = "https://github.com/stoneLay/BDNewRepo"
-  s.license      = { :type => "MIT", :file => "LICENSE" }
+  s.license      = "MIT"
 
   s.author       = { "Lay" => "lay.zhang@beibei.com" }
 
@@ -22,11 +22,13 @@ Pod::Spec.new do |s|
   
   s.ios.deployment_target = "8.0"
 
-  s.public_header_files = 'Pod/**/*.h'
+  s.source_files =        'BDNewRepo/Classes/**/*.{h,m}'
+  s.public_header_files = 'BDNewRepo/Classes/**/*.h'
   s.prefix_header_contents = '#import "BDNewRepoGlobal.h"'
   
-
-  s.source_files  = "Pod/**/*"
+  s.resource_bundles = {
+    'Pod' => ['Pod/Assets/*.{png,xib,xcassets,json}','Pod/Config/*']
+   }
 
   s.dependency 'YYCache'
 
