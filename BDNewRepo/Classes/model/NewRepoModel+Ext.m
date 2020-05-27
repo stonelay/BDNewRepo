@@ -7,9 +7,11 @@
 
 #import "NewRepoModel+Ext.h"
 
-#import <AppKit/AppKit.h>
-
-
 @implementation NewRepoModel (Ext)
+
+- (void)categoryPrint
+{
+    NSLog(@"category print");
+}
 
 @end
