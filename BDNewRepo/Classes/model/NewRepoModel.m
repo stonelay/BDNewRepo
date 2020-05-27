@@ -15,4 +15,9 @@
     return @"nnmae";
 }
 
+- (NSString *)addModify
+{
+    NSLog(@"add modify");
+    return @"..";
+}
 @end
